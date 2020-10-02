@@ -39,11 +39,11 @@ class Odometer extends React.Component {
         <h2>This is Odometer App</h2>
         <p>Score: {this.state.odometer_val}</p>
         <button onClick = {this.clickHandler} value= "1">+1</button>
-        <button onClick = {this.clickHandler} value= "-1">-1</button>
+        {/* <button onClick = {this.clickHandler} value= "-1">-1</button> */}
         <button onClick = {this.clickHandler} value= "10">+10</button>
-        <button onClick = {this.clickHandler} value= "-10">-10</button>
+        <button onClick = {this.clickHandler} value= "100">+100</button>
         <button onClick = {this.clickHandler} value= "1000">+1000</button>
-        <button onClick = {this.clickHandler} value= "-1000">-1000</button>
+        {/* <button onClick = {this.clickHandler} value= "-1000">-1000</button> */}
 
       </React.Fragment>
     )

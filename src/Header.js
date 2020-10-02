@@ -12,7 +12,7 @@ class Header extends React.Component {
     return (
       <>
       <h1>{this.state.greeting}</h1>
-      <p>some lorem ipsum</p>
+      <p>Some Stuff</p>
       </>
     )
   }

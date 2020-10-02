@@ -10,7 +10,7 @@ import Odometer from './Odometer';
 function App() {
   return (
     <div className="App">
-      <Header greeting = "Welcome" />
+      <Header greeting = "Hello! Welcome to my Odometer" />
       <Odometer />
       <Footer trademark = "Odometer"/>
       
